@@ -12,3 +12,6 @@
     border-radius: 15px;
     color: white;
 }
+body{
+    background : linear-gradient(rgb(223, 9, 162), rgb(9, 87, 97)); 
+}
