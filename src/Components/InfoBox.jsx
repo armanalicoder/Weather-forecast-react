@@ -1,5 +1,5 @@
-import "../../public/css/InfoBox.css"
-import "../../public/css/weatherinfo.css"
+import "../css/InfoBox.css"
+import "../css/weatherinfo.css"
 import Home from "./Home";
 import WeatherInfo from "./WeatherInfo";
 import ForecastInfo from "./ForecastInfo";
