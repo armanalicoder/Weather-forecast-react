@@ -1,5 +1,5 @@
 import TextField from '@mui/material/TextField';
-import "../../public/css/SearchBox.css";
+import "../css/SearchBox.css";
 import { useState } from 'react';
 import getWeatherData from './getWeatherData';
 import CircularIndeterminate from './Loader';
