@@ -1,0 +1,43 @@
+.SearchBox{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+.SearchBox form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+}
+.SearchBox form button{
+    margin: 10px;
+   background-color: #fff;
+   font-size: 25px;
+   padding : 6px 10px 6px 10px;
+   border-radius: 35px;
+   border: none;
+}
+#searchInput:focus{
+    border: none;
+}
+/* For WebKit browsers like Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+    height: 10px; /* Adjust height for horizontal scrollbar */
+    width: 8px; /* Adjust width for vertical scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Make the scrollbar track (background) transparent */
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray; /* Style the scrollbar thumb */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: darkgray;
+}
